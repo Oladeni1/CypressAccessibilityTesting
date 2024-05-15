@@ -1,4 +1,4 @@
-describe('Check accessibility violations', () => {
+describe('Check accessibility violations - Amazon Website', () => {
 	beforeEach(() => {
 		cy.visit('/'); 
 		cy.injectAxe();
